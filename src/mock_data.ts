@@ -69,3 +69,36 @@ export const features = [
         desc:"Our team of dedicated support specialists is here to help you 24/7."
     },
 ]
+
+export const popularFreelancers = [
+    {
+        id:1,
+        profileImage:"https://randomuser.me/api/portraits/women/79.jpg",
+        fullName:"Sara Gauff",
+        title:"SEO Audit"
+    },
+    {
+        id:2,
+        profileImage:"https://randomuser.me/api/portraits/men/32.jpg",
+        fullName:"Micheal Turin",
+        title:"App Development"
+    },
+    {
+        id:3,
+        profileImage:"https://randomuser.me/api/portraits/men/45.jpg",
+        fullName:"Yun Lie",
+        title:"Web Development"
+    },
+    {
+        id:4,
+        profileImage:"https://randomuser.me/api/portraits/women/3.jpg",
+        fullName:"Lara Devin",
+        title:"Social Media Marketing"
+    },
+    {
+        id:5,
+        profileImage:"https://randomuser.me/api/portraits/men/9.jpg",
+        fullName:"Matteo Draper",
+        title:"Video Editor"
+    },
+]
