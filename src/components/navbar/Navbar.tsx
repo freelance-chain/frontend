@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom'
 const Navbar: React.FC = () => {
 
   return (
-    <div className='w-full lg:p-4 flex fixed top-0 left-0 z-50 justify-center items-center border-b-2 '>
+    <div className='w-full lg:p-4 flex fixed top-0 left-0 z-50 justify-center items-center border-b-2 bg-white'>
       <div className='w-full lg:flex hidden'>
         <div className='w-full flex lg:space-x-8 justify-center lg:ml-16 items-center'>
           <h1 className='text-black font-serif font-bold tracking-wider text-xl'> freelance chain </h1>
