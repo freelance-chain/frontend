@@ -18,7 +18,7 @@ const clientLinks = [
         href: "/what-smart-contract"
     },
     {
-        title: "How-connect-metamask",
+        title: "How connect metamask",
         href: '/how-connect-metamask'
     }
 ]
@@ -33,7 +33,7 @@ const freelancerLinks = [
         href: "/what-smart-contract"
     },
     {
-        title: "How-connect-metamask",
+        title: "How connect metamask",
         href: '/how-connect-metamask'
     },
     {
