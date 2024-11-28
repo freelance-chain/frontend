@@ -1,8 +1,11 @@
 import React from 'react'
+import SearchContainer from './SearchContainer'
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <div className='lg:mt-16'>
+      <SearchContainer />
+    </div>
   )
 }
 
