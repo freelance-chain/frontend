@@ -1,5 +1,8 @@
 import { FaMeta, FaMicrosoft, FaPaypal } from "react-icons/fa6";
 import { RiNetflixFill } from "react-icons/ri";
+import { MdOutlineCategory,MdOutlinePriceCheck  } from "react-icons/md";
+import { FaShippingFast } from "react-icons/fa";
+import { BiSupport } from "react-icons/bi";
 
 export const trusted_by = [
     FaMeta,
@@ -38,4 +41,31 @@ export const services = [
         title:"Software Development",
         imageUrl:"https://bairesdev.mo.cloudinary.net/blog/2023/08/Software-Development-Models.jpg?tx=w_1920,q_auto"
     }
+]
+
+export const features = [
+    {
+        id:1,
+        icon: MdOutlineCategory,
+        title:"Find talent in every category",
+        desc:"Access talented freelancers worldwide for any task, tailored to your budget."
+    },
+    {
+        id:2,
+        icon: MdOutlinePriceCheck,
+        title:"Simple, straightforward pricing",
+        desc:"Only pay once the job has been completed to your satisfaction."
+    },
+    {
+        id:3,
+        icon: FaShippingFast,
+        title:"Get work done quickly and easily",
+        desc:"Under pressure to get something done? Filter for freelancers who can work now."
+    },
+    {
+        id:4,
+        icon: BiSupport,
+        title:"Incredible customer support",
+        desc:"Our team of dedicated support specialists is here to help you 24/7."
+    },
 ]
